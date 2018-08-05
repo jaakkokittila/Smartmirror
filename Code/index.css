@@ -35,10 +35,6 @@ body{
     width: 95%;
     margin-left: 2.5%;
     font-size: 1.5em;
-    animation-name: fade;
-    animation-duration: 0.5s;
-    animation-delay: 3s;
-    animation-iteration-count: infinite;
 }
 
 
@@ -49,9 +45,4 @@ body{
 
 #weather{
     font-size: 3em;
-}
-
-@keyframes fade{
-    0%{opacity: 100%;}
-    100%{opacity: 0%;}
 }
