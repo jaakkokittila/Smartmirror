@@ -1,2 +1,2 @@
 # Smartmirror
-Simple smart mirro app for my school project.
+Simple smart mirror app for my school project.
