@@ -1,0 +1,57 @@
+body{
+    font-family: fontti;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    align-content: center;
+    
+}
+
+
+@font-face{
+    font-family: fontti;
+    src: url(fontti.otf);
+}
+#body{
+    text-align: center;
+}
+
+#time{
+    margin-top: 4em;
+    margin-bottom: -1em;
+    font-size: 8em;
+    
+
+}
+
+#date{
+    font-size: 6em;
+}
+
+#headline{
+    position: fixed;
+    bottom: 2em;
+    text-align: center;
+    width: 95%;
+    margin-left: 2.5%;
+    font-size: 1.5em;
+    animation-name: fade;
+    animation-duration: 0.5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+#news{
+    width: 25%;
+    font-size: 1em;
+}
+
+#weather{
+    font-size: 3em;
+}
+
+@keyframes fade{
+    0%{opacity: 100%;}
+    100%{opacity: 0%;}
+}
