@@ -1,0 +1,54 @@
+ul{
+  list-style-type: none;
+}
+body{
+  font-family: Poppins;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  align-content: center;
+  text-align: center
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+
+#time{
+  margin-top: 3em;
+  margin-bottom: 0.5em;
+  font-size: 8em;
+  
+
+}
+
+#date{
+  font-size: 6em;
+}
+
+#headline{
+  position: fixed;
+  bottom: 2em;
+  text-align: center;
+  width: 95%;
+  margin-left: 2.5%;
+  font-size: 1.5em;
+}
+
+
+#news{
+  width: 25%;
+  font-size: 1em;
+}
+
+#weather, #reminder{
+  font-size: 3em;
+}
+
+#forecast{
+  font-size: 1.5em;
+}
+
+#weatherdiv{
+  align-content: center;
+}
